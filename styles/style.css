@@ -1,0 +1,111 @@
+body{
+    background-color: purple;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Titulos */
+
+h1{
+    text-align: center;
+    color: darkslateblue;
+}
+
+h2,h3{
+    color: darkslateblue;
+    text-align: start;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+h2{
+    text-align: end;
+}
+
+/* Contenedores */
+.contenedor-quiz{
+    padding: 5px;
+    border: solid 0.8px;
+    width: 530px;
+    height: 630px;
+    background-color: white;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 5%;
+    box-shadow: 4px 4px 20px black
+}
+
+
+.contenedor-botones{
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    height: 55%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-retiro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.contenedor-progreso{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+}
+
+.contenedor-resultados{
+    width: 300px;
+    height: 400px;
+    background-color: whitesmoke;
+    right: 0;
+    top: 0;
+    position: absolute;
+    margin: 20px;
+    border-radius: 2px;
+    box-shadow: 4px 4px 20px black;
+    padding: 15px;
+}
+
+/* Botones */
+
+button{
+    padding: 3px;
+    color: white;
+    font-size: 20px;
+    background-color: darkslateblue;
+    width: 80%;
+    height: 100;
+    border-radius: 6%;
+    font-weight: bolder;
+}
+
+button:hover{
+    color: white;
+    background-color: rgb(81, 56, 218);
+    width: 82%;
+    height: 100;
+    border-radius: 6%;
+    box-shadow: 1px 1px 10px grey;
+    font-weight: bolder;
+}
+
+#boton-retiro{
+    padding: 8px;
+    width: 60%;
+    background-color: rgb(83, 2, 83);
+}
+#boton-retiro:hover{
+    padding: 8px;
+    width: 60%;
+    background-color: rgb(128, 8, 128);
+}
+
