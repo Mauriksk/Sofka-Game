@@ -39,7 +39,7 @@ export class Encuesta {
     selectRespuestaIncorrecta( respuesta ){
         if( respuesta === true  ){
             this.nivel = 1
-            alert('Perdiste Itentalo de nuevo')
+            alert('Perdiste Intentalo de nuevo')
         }
     }
     
