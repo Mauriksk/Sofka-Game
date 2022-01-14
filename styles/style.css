@@ -109,3 +109,17 @@ button:hover{
     background-color: rgb(128, 8, 128);
 }
 
+@media screen and (max-width: 1100px) {
+    .contenedor-resultados{
+        width: 300px;
+        height: 400px;
+        background-color: whitesmoke;
+        margin: 20px;
+        border-radius: 10px;
+        box-shadow: 4px 4px 20px black;
+        padding: 15px;
+        position: relative;
+        margin: auto;
+        margin-top: 30px;
+    }
+}

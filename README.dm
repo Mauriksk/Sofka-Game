@@ -1,7 +1,8 @@
 ### Juego Sofka
 
 Este es un juego de preguntas y respuestas donde debes superar todos los niveles para ganar
-cuentas con 5 niveles y cada uno de estos nos plantea diferentes tipos de preguntas
+cuentas con 5 niveles y cada uno de estos nos plantea diferentes tipos de preguntas.
+El juego es responsive asi que se puede usar tanto como en Desktop o Movile.
 
 ### Géneros Por nivel ###
 
@@ -16,7 +17,7 @@ No es necesario instalar nada para poder usar el proyecto.
 ### Como usar ###
 
 Simplemente de click en la opción que cree que es correcta, si avanza al nivel 5 le pedirá su nick de jugador.
-Si pierda le saldrá un alert que le informa que perdió y deberá volver a empezar
+Si pierda le saldrá un alert que le informa que perdió y deberá volver a empezar.
 
 ### Aclaraciones ###
 En lo personal me costó cumplir exactamente las Especificaciones para el trabajo
